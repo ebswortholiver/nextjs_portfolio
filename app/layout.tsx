@@ -24,11 +24,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <h1 className='py-3 text-4xl'>Oliver Ebsworth</h1>
         <img src="./images/profile.png" width={256} height={256} alt='Profile Image' className='rounded-full' />
         <div id="socials" className='flex py-4 text-2xl'>
-          <Link href="mailto:ebswortholiver@gmail.com" className='px-1'><AiOutlineMail /></Link>
-          <Link href="https://github.com/oebsworth" target='_blank' rel='noreferrer noopener' className='px-1'><AiFillGithub /></Link>
-          <Link href="https://www.linkedin.com/in/oebsworth/" target='_blank' rel='noreferrer noopener' className='px-1'><AiFillLinkedin /></Link>
-          <Link href="https://twitter.com/EbsworthOliver" target='_blank' rel='noreferrer noopener' className='px-1'><AiFillTwitterCircle /></Link>
-          <Link href="https://oebsworth.itch.io/" target='_blank' rel='noreferrer noopener' className='px-1'><FaItchIo /></Link>
+          <Link href="mailto:work.ebswortholiver@gmail.com" className='px-1'><AiOutlineMail /></Link>
+          <Link href="https://github.com/ebswortholiver" target='_blank' rel='noreferrer noopener' className='px-1'><AiFillGithub /></Link>
         </div>
         <div className='w-1/2 border-b-2'></div>
         <p className='w-[45%] py-4 text-lg'>Thank you for visiting my portfolio. I am a dedicated programmer who derives great satisfaction from the process of crafting exceptional digital solutions.</p>

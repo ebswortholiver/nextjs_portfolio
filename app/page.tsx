@@ -4,34 +4,14 @@ const HomePage = () => {
 
   const projectData = [
     {
-      link: "github.com/oebsworth/portfolio-website-nextjs-web",
-      image: "portfolio-website-nextjs-web",
+      link: "github.com/ebswortholiver/nextjs_portfolio",
+      image: "nextjs_portfolio",
       alternate: "Porfolio Website",
     },
     {
-      link: "github.com/oebsworth/procedural-cv-nextjs-web",
-      image: "procedural-cv-nextjs-web",
+      link: "github.com/ebswortholiver/nextjs_procedural-cv",
+      image: "nextjs_procedural-cv",
       alternate: "Procedural C.V.",
-    },
-    {
-      link: "oebsworth.itch.io/kitchen-chaos-unity",
-      image: "kitchen-chaos-unity",
-      alternate: "Kitchen Chaos",
-    },
-    {
-      link: "oebsworth.itch.io/obstacle-assault-unreal",
-      image: "obstacle-assault-unreal",
-      alternate: "Obstacle Assault",
-    },
-    {
-      link: "oebsworth.itch.io/time-trial-car-game-unity",
-      image: "time-trial-car-game-unity",
-      alternate: "Time Trial Car Game",
-    },
-    {
-      link: "oebsworth.itch.io/warehouse-wreckage-unreal",
-      image: "warehouse-wreckage-unreal",
-      alternate: "Warehouse Wreckage",
     },
   ]
 
