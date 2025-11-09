@@ -34,12 +34,12 @@ const HomePage = () => {
         Explore my projects by navigating using the buttons below!
       </p>
       <div className="w-1/2 border-b-2"></div>
-      <div className="flex flex-wrap justify-between p-4">
+      <div className="w-1/2 flex flex-col items-center p-4">
         {projectData.map((project, index) => (
           <Link
             key={`project_${index}`}
             href={project.link}
-            className="w-[49%] flex flex-col justify-center border-2 text-lg px-4 py-2 mb-4 hover-shadow"
+            className="lg:w-[34.5rem] xl:w-[52.5rem] flex flex-col justify-center border-2 text-lg px-4 py-2 mb-4 hover-shadow"
           >
             <h2 className="font-bold text-xl">{project.title}</h2>
             <p>{project.about}</p>
