@@ -39,7 +39,7 @@ const HomePage = () => {
           <Link
             key={`project_${index}`}
             href={project.link}
-            className="w-[49%] border-2 text-lg px-4 py-2 mb-4 hover-shadow"
+            className="w-[49%] flex flex-col justify-center border-2 text-lg px-4 py-2 mb-4 hover-shadow"
           >
             <h2 className="font-bold text-xl">{project.title}</h2>
             <p>{project.about}</p>
