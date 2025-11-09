@@ -1,17 +1,16 @@
 import Link from 'next/link'
 
 const HomePage = () => {
-
   const projectData = [
     {
-      link: "github.com/ebswortholiver/nextjs_portfolio",
-      image: "nextjs_portfolio",
-      alternate: "Porfolio Website",
+      title: "Portfolio Website",
+      about: "A simple portfolio website, used to showcase my skills in all areas of digital development. Made in Next.js.",
+      link: "https://github.com/ebswortholiver/nextjs_portfolio",
     },
     {
-      link: "github.com/ebswortholiver/nextjs_procedural-cv",
-      image: "nextjs_procedural-cv",
-      alternate: "Procedural C.V.",
+      title: "Procedural C.V.",
+      about: "A Simple project used to generate a procedural CV for use with job applications and showcasing my abilities. Made with Next.js.",
+      link: "https://github.com/ebswortholiver/nextjs_procedural-cv",
     },
   ]
 
@@ -19,9 +18,12 @@ const HomePage = () => {
     <div className='flex flex-col justify-start items-center w-full'>
       <p className='py-4 text-lg'>Explore my projects by navigating using the buttons below!</p>
       <div className='w-1/2 border-b-2'></div>
-      <div className='flex pb-4 py-4'>
+      <div className='flex flex-wrap justify-between p-4'>
         {projectData.map((project, index) => (
-          <Link key={`project_${index}`} href={`https://${project.link}`} target='_blank' rel='noreferrer noopener'><img src={`./images/${project.image}.png`} width={128} height={128} alt={project.alternate} className='rounded-full w-[128px] h-[128px] mx-2' /></Link>
+          <Link key={`project_${index}`} href={project.link} className="w-[49%] border-2 text-lg px-4 py-2 mb-4 hover-shadow">
+            <h2 className="font-bold text-xl">{project.title}</h2>
+            <p>{project.about}</p>
+          </Link>
         ))}
       </div>
     </div>
