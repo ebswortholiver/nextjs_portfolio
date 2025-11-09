@@ -7,7 +7,7 @@ This project is my portfolio website. It was made in Next.js and it does it's be
 The website uses Next.js for it's framework, which includes uses of typescript and tailwindcss.
 
 ### Projects
-![projects](https://github.com/user-attachments/assets/02e77a2e-aa56-4656-b6d8-5e8974c644f0)
+![projects](https://github.com/user-attachments/assets/2e6af4c1-b6c0-4687-ab13-21bc8033f198)
 
 *This image shows the projects section.*
 
