@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio
 
-## Getting Started
+## Project Overview
+This project is my portfolio website. It was made in Next.js and it does it's best to showcase my abilities. I am updating it all of the time, so I tried to keep it as procedural as it could be.
 
-First, run the development server:
+## Technologies
+The website uses Next.js for it's framework, which includes uses of typescript and tailwindcss.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Projects
+![projects](https://github.com/user-attachments/assets/02e77a2e-aa56-4656-b6d8-5e8974c644f0)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+*This image shows the projects section.*
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The projects section is where I can show off all of my completed and ongoing projects.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+### Education
+![education](https://github.com/user-attachments/assets/086fc3ce-21d7-450a-a414-9c1ab88df1a8)
 
-To learn more about Next.js, take a look at the following resources:
+*This image shows the education section.*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This is my current level of education, however I am learning more all the time.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+### Work Experience
+![work-experience](https://github.com/user-attachments/assets/78dccd14-f690-420c-9441-31d52650c76e)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+*The image shows the work experience section.*
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This is the work experience that I have gained over the years.
+
+---
+
+### Skills
+![skills](https://github.com/user-attachments/assets/a6344d46-0d8d-497e-aed0-c87ecf1a084e)
+
+*This image shows the skills section.*
+
+The skills section shows all of my skills with a scale of one to ten, which defines how I feel about them in terms of my knowledge.
+
+---
+
+### C.V.
+![cv](https://github.com/user-attachments/assets/48f18707-6e74-4cab-a422-5d8494f0c9d7)
+
+*This image shows what happens when you click the C.V. button, as seen in previous screenshots.*
+
+The C.V. button takes you to another one of my projects, which is called [nextjs_procedural-cv](https://github.com/ebswortholiver/nextjs_procedural-cv), and is featured alongside my other projects on my [github profile](https://github.com/ebswortholiver/).
